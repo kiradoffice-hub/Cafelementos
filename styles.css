@@ -1,39 +1,77 @@
-/* Fuente Global */
+/* Base de estilos para Café Elementos */
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
-/* Sección de bienvenida */
-.welcome-section {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
+/* HERO */
+.hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 20px;
 }
 
-/* Logo */
-.welcome-logo {
-    width: 140px;
-    margin-bottom: 30px;
+.hero-logo {
+  width: 180px;
+  margin-bottom: 20px;
 }
 
-/* Título */
-.welcome-title {
-    font-size: 3.2rem;
-    font-weight: 700;
-    color: #000;
-    margin-bottom: 10px;
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
 }
 
-/* Texto */
-.welcome-text {
+.hero-subtitle {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* BOTONES */
+.btn-primary {
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 20px 10px 0 10px;
+  background-color: #C0FC4F;
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a6e642;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 20px 10px 0 10px;
+  background-color: transparent;
+  border: 2px solid #F59026;
+  color: #F59026;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #F59026;
+  color: #FFFFFF;
+}
     font-size: 1.2rem;
     font-weight: 400;
     max-width: 450px;
