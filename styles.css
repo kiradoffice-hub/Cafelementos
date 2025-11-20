@@ -1,1 +1,61 @@
+/* Fuente Global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Logo */
+.welcome-logo {
+    width: 140px;
+    margin-bottom: 30px;
+}
+
+/* Título */
+.welcome-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+.welcome-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 450px;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+/* Botón */
+.welcome-button {
+    background-color: #00ff6a;
+    padding: 14px 34px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000;
+    transition: 0.25s;
+}
+
+.welcome-button:hover {
+    background-color: #00d85b;
+    transform: translateY(-3px);
+}
 
