@@ -55,7 +55,7 @@ body {
 }
 
 .welcome-button:hover {
-    background-color: #00d85b;
+    background-color: #88cc00;
     transform: translateY(-3px);
 }
 
